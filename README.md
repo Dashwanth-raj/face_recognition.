@@ -14,7 +14,7 @@ Put them in a single folder. Create a folder name faces.
 
 Second Step-->
 
-First, run Facial_Recognition_Part1.py. It will take your 100-copy picture for training the machine. The photos will be stored in the faces folder.
+First, run Facial_Recognition_Part1.py. It will take your 50-copy picture for training the machine. The photos will be stored in the faces folder.
 
 Third Step-->
 
