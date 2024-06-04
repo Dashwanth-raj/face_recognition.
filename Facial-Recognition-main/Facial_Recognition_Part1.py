@@ -38,7 +38,7 @@ while True:
         print("Face not Found")
         pass
 
-    if cv2.waitKey(75)==1 or count==10:
+    if cv2.waitKey(75)==1 or count==50:
         break
 
 cap.release()
