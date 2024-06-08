@@ -50,7 +50,7 @@ while True:
         result = model.predict(face)
 
         if result[1] < 500:
-            confidence = int(100*(1-(result[1])/300))
+            confidence = int(100*(1-(result[1])/250))
             display_string = str(confidence)+'% Confidence it is user'
         cv2.putText(image,display_string,(100,120), cv2.FONT_HERSHEY_COMPLEX,1,(250,120,255),2)
 
